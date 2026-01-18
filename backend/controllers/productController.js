@@ -37,7 +37,7 @@ const addProduct = async (req,res) => {
         await product.save();
 
         return res.json({
-            succes: true,
+            success: true,
             message: 'Product Added'
         });
         
